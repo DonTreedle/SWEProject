@@ -1,0 +1,461 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.3" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+  <NonVisualComponents>
+    <Component class="javax.swing.ButtonGroup" name="SizeSelection">
+    </Component>
+    <Component class="javax.swing.ButtonGroup" name="CrustSelection">
+    </Component>
+    <Component class="javax.swing.ButtonGroup" name="SauceSelection">
+    </Component>
+  </NonVisualComponents>
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="3"/>
+    <Property name="title" type="java.lang.String" value="Pizza Application"/>
+    <Property name="alwaysOnTop" type="boolean" value="true"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+    <SyntheticProperty name="generateCenter" type="boolean" value="false"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" attributes="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace min="-2" pref="12" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="SauceLabel" min="-2" max="-2" attributes="0"/>
+                          <Component id="StuffedCrustRadio" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Group type="102" alignment="0" attributes="0">
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Component id="SizeLabel" alignment="0" min="-2" pref="69" max="-2" attributes="0"/>
+                                  <Component id="MediumSizeRadio" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="SmallSizeRadio" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="LargeSizeRadio" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="CrustLabel" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="ThinCrustRadio" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="HandTossedCrustRadio" alignment="0" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                                  <Group type="102" attributes="0">
+                                      <EmptySpace min="-2" pref="90" max="-2" attributes="0"/>
+                                      <Group type="103" groupAlignment="0" attributes="0">
+                                          <Component id="HamCheck" min="-2" max="-2" attributes="0"/>
+                                          <Component id="BeefCheck" min="-2" max="-2" attributes="0"/>
+                                          <Component id="ToppingsLabel" min="-2" max="-2" attributes="0"/>
+                                          <Group type="102" alignment="0" attributes="0">
+                                              <Group type="103" groupAlignment="0" attributes="0">
+                                                  <Group type="102" alignment="0" attributes="0">
+                                                      <Component id="SausageCheck" min="-2" max="-2" attributes="0"/>
+                                                      <EmptySpace min="-2" pref="12" max="-2" attributes="0"/>
+                                                  </Group>
+                                                  <Group type="102" alignment="1" attributes="0">
+                                                      <Component id="PepperoniCheck" min="-2" max="-2" attributes="0"/>
+                                                      <EmptySpace min="-2" pref="1" max="-2" attributes="0"/>
+                                                  </Group>
+                                              </Group>
+                                              <Group type="103" groupAlignment="0" attributes="0">
+                                                  <Component id="BlackOlivesCheck" min="-2" max="-2" attributes="0"/>
+                                                  <Component id="AnchoviesCheck" alignment="0" min="-2" max="-2" attributes="0"/>
+                                              </Group>
+                                          </Group>
+                                      </Group>
+                                  </Group>
+                                  <Group type="102" attributes="0">
+                                      <EmptySpace min="-2" pref="92" max="-2" attributes="0"/>
+                                      <Group type="103" groupAlignment="0" attributes="0">
+                                          <Component id="ChickenCheck" min="-2" max="-2" attributes="0"/>
+                                          <Component id="BaconCheck" min="-2" max="-2" attributes="0"/>
+                                      </Group>
+                                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                      <Group type="103" groupAlignment="0" attributes="0">
+                                          <Component id="JalepenoCheck" min="-2" max="-2" attributes="0"/>
+                                          <Component id="RedPeppersCheck" min="-2" max="-2" attributes="0"/>
+                                          <Component id="OnionCheck" alignment="0" min="-2" max="-2" attributes="0"/>
+                                          <Component id="MushroomsCheck" alignment="0" min="-2" max="-2" attributes="0"/>
+                                          <Component id="PineappleCheck" alignment="0" min="-2" max="-2" attributes="0"/>
+                                          <Component id="GreenPeppersCheck" min="-2" max="-2" attributes="0"/>
+                                      </Group>
+                                  </Group>
+                              </Group>
+                              <EmptySpace min="-2" pref="77" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Component id="SpecialtyLabel" min="-2" max="-2" attributes="0"/>
+                                  <Component id="SpecialtyComboBox" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                          </Group>
+                      </Group>
+                  </Group>
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="TomatoSauceRadio" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="MarinaraSauceRadio" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="BBQSauceRadio" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="AlfredoSauceRadio" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <Component id="BackButton" alignment="0" min="-2" pref="66" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace pref="8" max="32767" attributes="0"/>
+          </Group>
+          <Group type="102" alignment="1" attributes="0">
+              <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+              <Component id="AddToOrderButton" min="-2" max="-2" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="NextButton" min="-2" max="-2" attributes="0"/>
+              <EmptySpace min="-2" pref="7" max="-2" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="BackButton" min="-2" pref="23" max="-2" attributes="0"/>
+              <EmptySpace min="-2" pref="4" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="SizeLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="ToppingsLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="SmallSizeRadio" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="MediumSizeRadio" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="LargeSizeRadio" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="28" max="-2" attributes="0"/>
+                      <Component id="CrustLabel" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="ThinCrustRadio" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="HandTossedCrustRadio" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="StuffedCrustRadio" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="18" max="-2" attributes="0"/>
+                      <Component id="SauceLabel" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="TomatoSauceRadio" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="MarinaraSauceRadio" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="BBQSauceRadio" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="AlfredoSauceRadio" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace min="-2" pref="21" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="PepperoniCheck" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="AnchoviesCheck" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="SausageCheck" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="BlackOlivesCheck" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="SpecialtyLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="BaconCheck" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="GreenPeppersCheck" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="SpecialtyComboBox" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="ChickenCheck" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="RedPeppersCheck" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="BeefCheck" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="JalepenoCheck" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="HamCheck" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="OnionCheck" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="MushroomsCheck" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="PineappleCheck" min="-2" max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+              <EmptySpace pref="34" max="32767" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="AddToOrderButton" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="NextButton" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Component class="javax.swing.JButton" name="BackButton">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Back"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="BackButtonActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JRadioButton" name="SmallSizeRadio">
+      <Properties>
+        <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
+          <ComponentRef name="SizeSelection"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Small"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="SmallSizeRadioActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JRadioButton" name="MediumSizeRadio">
+      <Properties>
+        <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
+          <ComponentRef name="SizeSelection"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Medium"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JRadioButton" name="LargeSizeRadio">
+      <Properties>
+        <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
+          <ComponentRef name="SizeSelection"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Large"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="SizeLabel">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Lucida Grande" size="18" style="0"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Size:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="CrustLabel">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Lucida Grande" size="18" style="0"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Crust:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JRadioButton" name="ThinCrustRadio">
+      <Properties>
+        <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
+          <ComponentRef name="CrustSelection"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Thin"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="ThinCrustRadioActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JRadioButton" name="HandTossedCrustRadio">
+      <Properties>
+        <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
+          <ComponentRef name="CrustSelection"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Hand-Tossed"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JRadioButton" name="StuffedCrustRadio">
+      <Properties>
+        <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
+          <ComponentRef name="CrustSelection"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Stuffed"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="SauceLabel">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Lucida Grande" size="18" style="0"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Sauce:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JRadioButton" name="TomatoSauceRadio">
+      <Properties>
+        <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
+          <ComponentRef name="SauceSelection"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Tomato"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JRadioButton" name="MarinaraSauceRadio">
+      <Properties>
+        <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
+          <ComponentRef name="SauceSelection"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Marinara"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JRadioButton" name="BBQSauceRadio">
+      <Properties>
+        <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
+          <ComponentRef name="SauceSelection"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Barbecue"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JRadioButton" name="AlfredoSauceRadio">
+      <Properties>
+        <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
+          <ComponentRef name="SauceSelection"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Alfredo"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="ToppingsLabel">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Lucida Grande" size="18" style="0"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Toppings:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JCheckBox" name="PepperoniCheck">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Pepperoni"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="PepperoniCheckActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JCheckBox" name="SausageCheck">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Sausage"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JCheckBox" name="BaconCheck">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Bacon"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JCheckBox" name="ChickenCheck">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Chicken"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JCheckBox" name="BeefCheck">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Beef"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JCheckBox" name="HamCheck">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Ham"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JCheckBox" name="AnchoviesCheck">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Anchovies"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JCheckBox" name="BlackOlivesCheck">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Black Olives"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JCheckBox" name="GreenPeppersCheck">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Green Peppers"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JCheckBox" name="RedPeppersCheck">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Red Peppers"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JCheckBox" name="JalepenoCheck">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Jalepeno"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JCheckBox" name="OnionCheck">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Onions"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JCheckBox" name="MushroomsCheck">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Mushrooms"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JCheckBox" name="PineappleCheck">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Pineapple"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="SpecialtyLabel">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Lucida Grande" size="18" style="0"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Specialty:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JButton" name="AddToOrderButton">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Add To Order"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="AddToOrderButtonActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="NextButton">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Next"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="NextButtonActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JComboBox" name="SpecialtyComboBox">
+      <Properties>
+        <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+          <StringArray count="4">
+            <StringItem index="0" value="Meat Lovers"/>
+            <StringItem index="1" value="Hawian"/>
+            <StringItem index="2" value="Supreme"/>
+            <StringItem index="3" value="Chicken Alfredo"/>
+          </StringArray>
+        </Property>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="SpecialtyComboBoxActionPerformed"/>
+      </Events>
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+      </AuxValues>
+    </Component>
+  </SubComponents>
+</Form>
